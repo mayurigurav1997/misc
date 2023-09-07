@@ -1,12 +1,12 @@
 import React from 'react'
-import Image from 'next/image'
+// import Image from 'next/image'
 import img from '../public/1.jpg'
 
 
 const pets = () => {
     return (
         <div>
-            <Image src={img} placeholder='blur' alt='pet' width='280' height='420' />
+            {/* <Image src={img} placeholder='blur' alt='pet' width='280' height='420' />
             {
                 ['1', '2', '3', '4', '5'].map(path => {
                     return (
@@ -15,7 +15,7 @@ const pets = () => {
                         </div>
                     )
                 })
-            }
+            } */}
         </div>
     )
 }
